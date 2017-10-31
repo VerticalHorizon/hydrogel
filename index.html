@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="Model.js"></script>
+	<script type="text/javascript" src="fixtures.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		let a = new Area(areas[0]);
+		console.log(a);
+
+		var date = new Date();
+
+		let aa = Area.factory(areas);
+
+		console.log(new Date() - date);
+
+		console.log(aa);
+	</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "hydrogel",
   "version": "0.9.0",
-  "description": "Angular 1 RESTful Models",
+  "description": "RESTful Models",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,9 @@
     "url": "git+https://github.com/karellens/hydrogel.git"
   },
   "keywords": [
-    "angularjs",
-    "models"
+    "js",
+    "models",
+    "restful"
   ],
   "author": "Denis Bozhenkov",
   "license": "ISC",
